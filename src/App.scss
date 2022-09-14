@@ -1,0 +1,13 @@
+.App {
+  position: fixed;
+  background-color: #b520ff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &>* {
+    margin: 3rem 0;
+  }
+}

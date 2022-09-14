@@ -1,0 +1,15 @@
+.BigTitle {
+  & > * {
+    color: white;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
