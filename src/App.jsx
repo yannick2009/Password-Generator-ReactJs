@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
+// import "./_responsive.scss";
 import BigTitle from "./components/BigTitle";
 import Generator from "./components/Generator";
 

@@ -1,4 +1,14 @@
+@import "../sass/responsive";
+
 .generator {
+  @include adapt(tab-port) {
+    height: 20rem;
+    width: 45rem;
+  }
+  @include adapt(phone) {
+    height: 20rem;
+    width: 25rem;
+  }
   background-color: white;
   //   padding: 1rem;
   height: 30rem;
@@ -35,6 +45,7 @@
     outline: 0;
     text-transform: uppercase;
     border-radius: 5px;
+    margin: 1rem 0;
     cursor: pointer;
     &:hover {
       transform: scale(1.01);

@@ -1,3 +1,5 @@
+@import "../sass/responsive";
+
 .BigTitle {
   & > * {
     color: white;
@@ -7,6 +9,11 @@
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
+    @include adapt(phone) {
+      h1 {
+        font-size: 1rem;
+      }
+    }
   }
   p {
     text-align: center;
